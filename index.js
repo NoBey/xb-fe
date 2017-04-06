@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import { Router, Route, Link, browserHistory, hashHistory, IndexLink, IndexRoute } from 'react-router'
 import './index.css';
 import { DatePicker,Button } from 'antd';
+import Addbox from './common/addbox/index'
+import TopBox from './common/TopBox/index'
 
 const App = () => (
   <div>
-    <h2>ICxyz</h2>
+    <Addbox />
+    <TopBox />
+
   </div>
 )
 
