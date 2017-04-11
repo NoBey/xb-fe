@@ -5,4 +5,8 @@ html, body, #app {
   font-family: "Microsoft YaHei UI" !important;
 }
 
-@primary-color : "#0c5aa2";
+
+.loginBigBox{
+  width: 500px;
+
+}
